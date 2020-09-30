@@ -1,2 +1,4 @@
 # XamarinFormsControlTemplates
-Xamarin.Forms ControlT emplates repo for my talk
+Xamarin.Forms Control Templates repo for my talk
+
+More about [XamExpertDay]("https://expertday.forxamarin.com/")
