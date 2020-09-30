@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prism:PrismApplication
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:prism="http://prismlibrary.com"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MovieNight.App">
+    <Application.Resources>
+        <Color x:Key="Primary">#51adcf</Color>
+        <Color x:Key="PrimaryTranslucent">#cc51adcf</Color>
+        <Color x:Key="PrimaryDark">#0278ae</Color>
+        <Color x:Key="Secondary">#a5ecd7</Color>
+        <Color x:Key="Accent">#e8ffc1</Color>
+
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="{x:StaticResource PrimaryDark}"/>
+            <Setter Property="BarTextColor" Value="White"/>
+        </Style>
+        <Style TargetType="Label" x:Key="MovieName">
+            <Setter Property="FontSize" Value="Subtitle"/>
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
+        <Style TargetType="Label" x:Key="MovieYear">
+            <Setter Property="FontSize" Value="Small"/>
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="HeightRequest" Value="40"/>
+            <Setter Property="BackgroundColor" Value="{x:StaticResource PrimaryDark}"/>
+            <Setter Property="Margin" Value="30,15"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="CornerRadius" Value="20"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="TextTransform" Value="Uppercase"/>
+        </Style>
+    </Application.Resources>
+</prism:PrismApplication>

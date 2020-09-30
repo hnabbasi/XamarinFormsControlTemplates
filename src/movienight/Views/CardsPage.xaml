@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:MovieNight.Views.Controls"
+    x:Class="MovieNight.Views.CardsPage"
+    BackgroundColor="#efefef"
+    Title="Cards">
+
+    <StackLayout Padding="20" Spacing="30">
+        <controls:CardView Title="Title and Icon" Icon="https://img.icons8.com/ios-glyphs/48/hearts.png">
+            <Label Text="Content of the card"/>
+        </controls:CardView>
+        <controls:CardView Title="Title only">
+            <Label Text="Content of the card"/>
+        </controls:CardView>
+        <controls:CardView Icon="https://img.icons8.com/ios-glyphs/48/hearts.png">
+            <Label Text="Content of the card"/>
+        </controls:CardView>
+        <controls:CardView>
+            <Label Text="Content only"/>
+        </controls:CardView>
+    </StackLayout>
+
+</ContentPage>

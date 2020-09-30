@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:MovieNight.Views.Controls"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True"
+             x:Class="MovieNight.Views.MainPage"
+             Title="{Binding Title}">
+    <StackLayout>
+        <SearchBar Placeholder="Search movies..."
+                   Text="{Binding SearchQuery}"
+                   CancelButtonColor="{x:StaticResource Primary}"/>
+        <CollectionView x:Name="mainContent" ItemsSource="{Binding Movies}"
+                        Margin="0"
+                        ItemsLayout="VerticalGrid, 2">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <controls:MovieItem
+                        Avatar="{Binding Poster}"
+                        Title="{Binding Title}"
+                        Year="{Binding Year}"/> 
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+            <CollectionView.EmptyView>
+                <Label Text="{Binding SearchQuery, StringFormat='{0} not found'}"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+            </CollectionView.EmptyView>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>
