@@ -1,5 +1,6 @@
 ﻿using MovieNight.Data;
 using MovieNight.Views;
+using MovieNight.Views.MenuPage;
 using Prism.DryIoc;
 using Prism.Ioc;
 using Xamarin.Forms;
