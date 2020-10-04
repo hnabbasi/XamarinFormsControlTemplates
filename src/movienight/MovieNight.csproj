@@ -28,5 +28,6 @@
     <Folder Include="Models\" />
     <Folder Include="Data\Abstractions\" />
     <Folder Include="Views\Controls\" />
+    <Folder Include="Views\MenuPage\" />
   </ItemGroup>
 </Project>
