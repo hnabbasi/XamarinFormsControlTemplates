@@ -1,11 +1,13 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNight.Android", "movienight.Android\movienight.Android.csproj", "{367987B2-D496-4658-92F5-E5F90BE89070}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movienight.Android", "movienight.Android\movienight.Android.csproj", "{367987B2-D496-4658-92F5-E5F90BE89070}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNight.iOS", "movienight.iOS\movienight.iOS.csproj", "{751EA91F-2748-40A7-A3A4-E9EDC5AD3E92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movienight.iOS", "movienight.iOS\movienight.iOS.csproj", "{751EA91F-2748-40A7-A3A4-E9EDC5AD3E92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNight", "movienight\movienight.csproj", "{5A7EE965-6DC1-41EF-8792-F6B73BAE8452}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movienight", "movienight\movienight.csproj", "{5A7EE965-6DC1-41EF-8792-F6B73BAE8452}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{326E091E-E144-48F9-88D5-55506AEE388A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

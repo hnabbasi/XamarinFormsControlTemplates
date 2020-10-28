@@ -5,11 +5,15 @@
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
              ios:Page.UseSafeArea="True"
              x:Class="MovieNight.Views.MainPage"
+             BackgroundColor="Black"
              Title="{Binding Title}">
     <StackLayout>
         <SearchBar Placeholder="Search movies..."
                    Text="{Binding SearchQuery}"
-                   CancelButtonColor="{x:StaticResource Primary}"/>
+                   BackgroundColor="Black"
+                   TextColor="White"
+                   PlaceholderColor="White"
+                   CancelButtonColor="White"/>
         <CollectionView x:Name="mainContent" ItemsSource="{Binding Movies}"
                         Margin="0"
                         ItemsLayout="VerticalGrid, 2">

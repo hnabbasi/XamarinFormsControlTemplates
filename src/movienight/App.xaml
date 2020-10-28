@@ -10,10 +10,13 @@
         <Color x:Key="PrimaryDark">#0278ae</Color>
         <Color x:Key="Secondary">#a5ecd7</Color>
         <Color x:Key="Accent">#e8ffc1</Color>
-
+        <!--{x:StaticResource PrimaryDark}-->
         <Style TargetType="NavigationPage">
-            <Setter Property="BarBackgroundColor" Value="{x:StaticResource PrimaryDark}"/>
+            <Setter Property="BarBackgroundColor" Value="Black"/>
             <Setter Property="BarTextColor" Value="White"/>
+        </Style>
+        <Style TargetType="ContentPage">
+            <Setter Property="BackgroundColor" Value="Black"/>
         </Style>
         <Style TargetType="Label" x:Key="MovieName">
             <Setter Property="FontSize" Value="Subtitle"/>
@@ -25,7 +28,7 @@
         </Style>
         <Style TargetType="Button">
             <Setter Property="HeightRequest" Value="40"/>
-            <Setter Property="BackgroundColor" Value="{x:StaticResource PrimaryDark}"/>
+            <Setter Property="BackgroundColor" Value="Black"/>
             <Setter Property="Margin" Value="30,15"/>
             <Setter Property="TextColor" Value="White"/>
             <Setter Property="CornerRadius" Value="20"/>

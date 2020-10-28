@@ -69,6 +69,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="..\.editorconfig" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -145,7 +146,7 @@
   <ItemGroup>
     <ProjectReference Include="..\movienight\movienight.csproj">
       <Project>{5A7EE965-6DC1-41EF-8792-F6B73BAE8452}</Project>
-      <Name>MovieNight</Name>
+      <Name>movienight</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

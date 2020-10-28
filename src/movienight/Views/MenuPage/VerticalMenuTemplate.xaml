@@ -7,7 +7,7 @@
     <StackLayout>
         <Button Text="Cards" Command="{prism:NavigateTo CardsPage}" VerticalOptions="EndAndExpand"/>
         <Button Text="Movies" Command="{prism:NavigateTo MainPage}" />
-        <Image Source="https://expertday.forxamarin.com/wp-content/uploads/2019/07/XamExpertDay2019_WhiteTextAndBrain-300x300.png"
+        <Image Source="https://secure.meetupstatic.com/photos/event/3/c/7/4/600_443055476.jpeg"
                VerticalOptions="EndAndExpand"
                HorizontalOptions="EndAndExpand"
                Opacity=".5"

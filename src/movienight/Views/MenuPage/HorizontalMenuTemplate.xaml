@@ -5,7 +5,7 @@
     xmlns:prism="http://prismlibrary.com"
     x:Class="MovieNight.Views.MenuPage.HorizontalMenuTemplate">
     <StackLayout Orientation="Horizontal">
-        <Image Source="https://expertday.forxamarin.com/wp-content/uploads/2019/07/XamExpertDay2019_WhiteTextAndBrain-300x300.png"
+        <Image Source="https://secure.meetupstatic.com/photos/event/3/c/7/4/600_443055476.jpeg"
                Opacity=".5"
                WidthRequest="500"
                HeightRequest="500"

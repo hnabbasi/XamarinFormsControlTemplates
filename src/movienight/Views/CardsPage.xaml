@@ -9,16 +9,19 @@
 
     <StackLayout Padding="20" Spacing="30">
         <controls:CardView Title="Title and Icon" Icon="https://img.icons8.com/ios-glyphs/48/hearts.png">
-            <Label Text="Content of the card"/>
+            <StackLayout>
+                <Label Text="Name"/>
+                <Label Text="Details"/>
+            </StackLayout>
         </controls:CardView>
         <controls:CardView Title="Title only">
             <Label Text="Content of the card"/>
         </controls:CardView>
         <controls:CardView Icon="https://img.icons8.com/ios-glyphs/48/hearts.png">
-            <Label Text="Content of the card"/>
+            <Label Text="Content of the card" HorizontalTextAlignment="Center" />
         </controls:CardView>
         <controls:CardView>
-            <Label Text="Content only"/>
+            <Label Text="Content only" HorizontalTextAlignment="Center"/>
         </controls:CardView>
     </StackLayout>
 
